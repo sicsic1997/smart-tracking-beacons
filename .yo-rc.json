@@ -1,0 +1,35 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "org.fmi.smarttrackingbeacons"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "SmartTrackingBeacons",
+        "packageName": "org.fmi.smarttrackingbeacons",
+        "packageFolder": "org/fmi/smarttrackingbeacons",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": false,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "mssql",
+        "prodDatabaseType": "mssql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "YTgxZGUxNzY2OWJlZDVlMDNmMmM5NjRmZTE1OGNhOTliMGU1NDNmNWIzMzQ3YjM4NDhmYzgzOTZjNjk5MzA3OTliOWJlMzc1OTM5NzRmNjUxOTU4ZmYwMDRhNGZhOWMzOTcwNzdhM2I0MDIzOWM0MWUxOGExMjA5MWQ2MDZjODE=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}
