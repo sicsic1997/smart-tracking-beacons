@@ -4,6 +4,14 @@ import { RouterModule } from '@angular/router';
 @NgModule({
     imports: [
         RouterModule.forChild([
+            {
+                path: 'location',
+                loadChildren: './location/location.module#SmartTrackingBeaconsLocationModule'
+            },
+            {
+                path: 'beacon',
+                loadChildren: './beacon/beacon.module#SmartTrackingBeaconsBeaconModule'
+            }
             /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
         ])
     ],

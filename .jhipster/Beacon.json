@@ -1,0 +1,27 @@
+{
+    "name": "Beacon",
+    "fields": [
+        {
+            "fieldName": "uuid",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "location",
+            "otherEntityName": "location",
+            "otherEntityField": "id",
+            "otherEntityRelationshipName": "beacon"
+        }
+    ],
+    "changelogDate": "20190303165835",
+    "entityTableName": "beacon",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

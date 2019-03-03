@@ -37,8 +37,8 @@ spring:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:sqlserver://localhost:1433;database=SmartTrackingBeacons
-        username: SA
-        password: yourStrong(!)Password
+        username: sa
+        password: parola
         hikari:
             poolName: Hikari
             auto-commit: false

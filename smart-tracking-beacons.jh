@@ -1,0 +1,14 @@
+// JDL definition for application 'SmartTrackingBeacons' generated with command 'jhipster export-jdl'
+entity Location {
+    code String required
+    description String required
+}
+
+entity Beacon {
+    uuid String
+}
+
+
+relationship ManyToOne {
+    Beacon{location} to Location
+}
